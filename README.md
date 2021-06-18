@@ -37,6 +37,9 @@ The plot 2 (plot2.png & plot2.R) shows that the total emission from pm2.5 decrea
 
 The plot 3 (plot3.png & plot3.R) shows that the non-road, non-point and on-road types of sources increase in emission from 1999 and 2008. However the point type of source increase in emission between 1999 and 2005 and decrease between 2005 and 2008
 
+![image](https://user-images.githubusercontent.com/53124723/122547919-fc9bab00-d030-11eb-99e3-bbb1ef3bc4ae.png)
+
+
 4 -[ Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?]
 
 The plot 4 (plot4.png & plot4.R) shows that the total emission of PM2.5 from coal combustion-related sources decrease slightly between 1999 and 2005 but decrease significantly between 2005 and 2008
