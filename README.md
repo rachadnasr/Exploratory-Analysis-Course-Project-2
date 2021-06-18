@@ -25,14 +25,26 @@ Source Classification Code Table (Source_Classification_Code.rds): This table pr
 Questions/Answers
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1 - Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+1 - [Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.]
 
-2 - Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510"\color{red}{\verb|fips == "24510"|}fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+The plot 1 (plot1.png & plot1.R) indicate that the the total emission from PM2.5 decreased from 1999 to 2008 in the United States
 
-3 - Of the four types of sources indicated by the type\color{red}{\verb|type|}type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
+2 - [Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510"\color{red}{\verb|fips == "24510"|}fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.]
 
-4 - Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+The plot 2 (plot2.png & plot2.R) shows that the total emission from pm2.5 decrease in between 1999 and 2002 then increase between 2002 and 2005 and finally it decrease between 2005 ad 2008
 
-5 - How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+3 - [Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.]
 
-6 - Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+The plot 3 (plot3.png & plot3.R) shows that the non-road, non-point and on-road types of sources increase in emission from 1999 and 2008. However the point type of source increase in emission between 1999 and 2005 and decrease between 2005 and 2008
+
+4 -[ Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?]
+
+The plot 4 (plot4.png & plot4.R) shows that the total emission of PM2.5 from coal combustion-related sources decrease slightly between 1999 and 2005 but decrease significantly between 2005 and 2008
+
+5 - [How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?]
+
+The plot 5 (plot5.png & plot5.R) shows that the emission from motor vehicle sources decrease from 1999-2008 in Baltimore city between 1999 and 2008
+
+6 -[ Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?]
+
+The plot 6 (plot6.png & plot6.R) shows that the emission from motor sources in Los Angeles County is higher than the emission from motor souces in Baltimore City
